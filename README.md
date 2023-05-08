@@ -1,8 +1,8 @@
 # Calculadora-Basica
 Practica de javaScript: Calculadora básica. 
 
-Operaciones: 
-SUMA
-RESTA
-MULTIPLICACIÓN
-DIVISIÓN
+*Operaciones: 
+*SUMA
+*RESTA
+*MULTIPLICACIÓN
+*DIVISIÓN
