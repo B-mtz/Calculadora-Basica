@@ -13,28 +13,50 @@
 </head>
 
 <body>
-    <div class="contenido">
-            <input type="textfield" name="resultado" value="" autocomplete="off" readonly>
-            <br>
-            <input type="button" value="7" id="7">
-            <input type="button" value="8" id="7">
-            <input type="button" value="9" id="7">
-            <input type="button" value="+" id="suma">
-            <br>
-            <input type="button" value="4" id="4">
-            <input type="button" value="5" id="5">
-            <input type="button" value="6" id="6">
-            <input type="button" value="-" id="-">
-            <br>
-            <input type="button" value="1" id="1">
-            <input type="button" value="2" id="2">
-            <input type="button" value="3" id="3">
-            <input type="button" value="x" id="x">
-            <br>
-            <input type="button" value="0" id="0">
-            <input type="button" value="c" id="c">
-            <input type="button" value="=" id="=">
-            <input type="button" value="/" id="/">
+    <div class="calculadora">
+        <div class="contenido-calculadora">
+            <div class="contenedor-resultado">
+                <input type="textfield" name="resultado" class="resultado" value="32" readonly>
+            </div>
+            <div class="contenedor-botones">
+                <div class="contenido-centro">
+                    <div>
+                        <div class="numeros">
+                            <input type="button" value="c" id="c" class="boton">
+                            <input type="button" value="<" id="borrari" class="boton">
+                            <input type="button" value="/" id="div" class="boton">
+                        </div>
+                        <div class="numeros">
+                            <input type="button" value="7" id="7" class="boton">
+                            <input type="button" value="8" id="8" class="boton">
+                            <input type="button" value="9" id="9" class="boton">
+                        </div>
+                        <div class="numeros">
+                            <input type="button" value="4" id="4" class="boton">
+                            <input type="button" value="5" id="5" class="boton">
+                            <input type="button" value="6" id="6" class="boton">
+                        </div>
+                        <div class="numeros">
+                            <input type="button" value="1" id="1" class="boton">
+                            <input type="button" value="2" id="2" class="boton">
+                            <input type="button" value="3" id="3" class="boton">
+                        </div>
+
+                    </div>
+                    <div class="contenido-derecha">
+                        <input type="button" value="x" id="multi" class="boton">
+                        <input type="button" value="-" id="resta" class="boton">
+                        <input type="button" value="+" id="suma" class="suma">
+                    </div>
+
+                </div>
+                <div>
+                    <input type="button" value="0" id="0" class="boton">
+                    <input type="button" value="." id="." class="boton">
+                    <input type="button" value="=" id="=" class="igual">
+                </div>
+            </div>
+        </div>
 
     </div>
 </body>

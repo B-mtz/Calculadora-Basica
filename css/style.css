@@ -1,42 +1,70 @@
-body{
+body {
     background: #571845;
     font-family: 'Roboto', sans-serif;
 }
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    margin: 10px;
+
+.calculadora{
+    display: grid;
+    justify-content: center;
 }
-.contenido{
+.contenido-calculadora{
     background-color: #C70039;
-    width: 300px;
-    height: 430px;
-    padding: 20px;
+    padding: 13px;
     border-radius: 15px;
 }
 
-.resultado{
+.contenedor-resultado{
+    margin: 8px;
+}
+
+.resultado {
     background-color: white;
     color: #C70039;
-     height: 80px;
+    height: 75px;
     font-size: 5ch;
     text-align: end;
-    width: 300px;
+    width: 305px;
     border-radius: 10px;
-    margin-bottom: 5px;
     border-color: white;
 }
 
-.numero{
+.contenido-centro{
+    display: flex;
+}
+
+.boton {
     background-color: #FF5733;
     color: yellow;
-    height: 80px;
     font-size: 5ch;
-    width: 70px;
     border-radius: 10px;
-    margin-top: 5px;
-    margin-left: 1px;
     border-color: #FF5733;
+    width: 70px;
+    height: 70px;
+    margin: 2px 2px 6px 6px;
+}
+
+.contenido-derecha {
+    display: grid;
+    margin-left: 4px;
+
+}
+.suma {
+    background-color: #FF5733;
+    color: yellow;
+    font-size: 5ch;
+    border-radius: 10px;
+    border-color: #FF5733;
+    width: 70px;
+    height: 150px;
+    margin: 2px 2px 6px 6px;
+}
+.igual{
+    background-color: #FF5733;
+    color: yellow;
+    font-size: 5ch;
+    border-radius: 10px;
+    border-color: #FF5733;
+    width:150px;
+    height: 70px;
+    margin: 2px 2px 6px 6px;
 }
