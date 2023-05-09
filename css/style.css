@@ -68,3 +68,25 @@ body {
     height: 70px;
     margin: 2px 2px 6px 6px;
 }
+
+.boton:hover{
+    cursor:pointer;
+    filter: brightness(80%);
+    transition: filter .2s;
+    background-color: #FFC300;
+    color: #C70039;
+}
+.suma:hover{
+    filter: brightness(80%);
+    transition: filter .2s;
+    cursor:pointer;
+    background-color: #FFC300;
+    color: #C70039;
+}
+.igual:hover{
+    filter: brightness(80%);
+    transition: filter .2s;
+    cursor:pointer;
+    background-color: #FFC300;
+    color: #C70039;
+}
