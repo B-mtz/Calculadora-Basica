@@ -2,10 +2,24 @@ body {
     background: #571845;
     font-family: 'Roboto', sans-serif;
 }
-
+.titulo{
+    display: grid;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+    padding: 15px;
+    color: white;
+    background-color: #FF5733;
+    border-color: white;
+    border-radius: 10px;
+    width: 305px;
+}
 .calculadora{
     display: grid;
     justify-content: center;
+    margin-top: 10px;
 }
 .contenido-calculadora{
     background-color: #C70039;
